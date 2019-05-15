@@ -24,6 +24,7 @@
 		81954835228C113A00648B23 /* NSAttributedString+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 81954822228C113900648B23 /* NSAttributedString+AvoidCrash.m */; };
 		81954836228C113A00648B23 /* AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 81954825228C113900648B23 /* AvoidCrash.m */; };
 		81954837228C113A00648B23 /* AvoidCrashStubProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81954828228C113900648B23 /* AvoidCrashStubProxy.m */; };
+		8195483A228C25EC00648B23 /* CrashController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81954839228C25EC00648B23 /* CrashController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,8 @@
 		8195482A228C113900648B23 /* NSMutableString+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+AvoidCrash.h"; sourceTree = "<group>"; };
 		8195482B228C113900648B23 /* NSMutableAttributedString+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+AvoidCrash.h"; sourceTree = "<group>"; };
 		8195482C228C113900648B23 /* NSMutableArray+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+AvoidCrash.h"; sourceTree = "<group>"; };
+		81954838228C25EC00648B23 /* CrashController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrashController.h; sourceTree = "<group>"; };
+		81954839228C25EC00648B23 /* CrashController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrashController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,8 @@
 				81954800228C0F1D00648B23 /* AppDelegate.m */,
 				81954802228C0F1D00648B23 /* ViewController.h */,
 				81954803228C0F1D00648B23 /* ViewController.m */,
+				81954838228C25EC00648B23 /* CrashController.h */,
+				81954839228C25EC00648B23 /* CrashController.m */,
 				81954805228C0F1D00648B23 /* Main.storyboard */,
 				81954808228C0F2900648B23 /* Assets.xcassets */,
 				8195480A228C0F2900648B23 /* LaunchScreen.storyboard */,
@@ -206,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8195483A228C25EC00648B23 /* CrashController.m in Sources */,
 				81954834228C113A00648B23 /* NSMutableAttributedString+AvoidCrash.m in Sources */,
 				81954831228C113A00648B23 /* NSMutableString+AvoidCrash.m in Sources */,
 				8195482F228C113A00648B23 /* NSDictionary+AvoidCrash.m in Sources */,
