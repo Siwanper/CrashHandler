@@ -20,7 +20,8 @@
     NSArray *array = @[@"1",@"2"];
     NSLog(@"item == %@", array[1]);
     NSLog(@"some hotfix");
-    
+    NSLog(@"item1111 == %@", array[2]);
+        
 }
 
 
