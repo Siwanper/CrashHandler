@@ -10,4 +10,10 @@
 
 @implementation CrashController
 
+
+- (void)viewDidLoad{
+    [super viewDidLoad];
+    NSLog(@"111");
+}
+
 @end
